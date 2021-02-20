@@ -70,6 +70,7 @@ SELECT Name, Continent, Region FROM Country ORDER BY Continent DESC, Region, Nam
 DROP TABLE IF EXISTS booltest;
 CREATE TABLE booltest (a INTEGER, b INTEGER);
 INSERT INTO booltest VALUES (1, 0);
+INSERT INTO booltest VALUES (1, 1);
 SELECT * FROM booltest;
 
 -- The CASE statement --
@@ -83,3 +84,6 @@ SELECT
     CASE a WHEN 0 THEN 'true' ELSE 'false' END AS boolA,
     CASE b WHEN 1 THEN 'true' ELSE 'false' END AS boolB
     FROM booltest;
+
+
+    
