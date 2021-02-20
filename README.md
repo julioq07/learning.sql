@@ -1,5 +1,5 @@
 # learning.sql
-Repository with notes and exercises about SQL 
+Repository with notes and exercises on SQL 
 
 Update waiting... 
 
