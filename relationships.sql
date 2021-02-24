@@ -53,7 +53,7 @@ SELECT l.description AS left, r.description AS right
     LEFT JOIN left AS l on l.id = r.id;
 
 -- More than that, we can change the order of the columns in the result table
--- without change the logic statment of the join clause
+-- without change the logic statement of the join clause
 SELECT r.description AS right, l.description AS left
     FROM right AS r
     LEFT JOIN left AS l on l.id = r.id;
