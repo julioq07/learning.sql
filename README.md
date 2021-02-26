@@ -24,3 +24,4 @@ Update waiting...
 ## References
 1. https://modern-sql.com/
 2. https://towardsdatascience.com/crack-sql-interviews-6a5fc90ec763
+3. https://losapuntesdemajo.now.sh/ --> SQL notes in Spanish
